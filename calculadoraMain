@@ -1,5 +1,15 @@
 int valor1, valor2 = 0;
 
+int soma ()
+{
+
+}
+
+int subtracao ()
+{
+
+}
+
 int main()
 {
 
