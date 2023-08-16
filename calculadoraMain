@@ -1,6 +1,11 @@
 int valor1, valor2, resultado = 0;
 
-int main()
+int multiplicação ()
 {
-    return 0;
+    resultado = valor1 * valor2;
+}
+
+int divisao ()
+{
+    resultado = valor1 / valor2;
 }
