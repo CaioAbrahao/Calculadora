@@ -1,36 +1,11 @@
-//#include <stdio.h>
-
 int valor1, valor2, resultado = 0;
 
-//perguntar valores
-void perguntarValor1()
+int multiplicação ()
 {
-    printf("Insira o primeiro valor: \n");
-    scanf("%d", &valor1);
+    resultado = valor1 * valor2;
 }
 
-void perguntarValor2()
+int divisao ()
 {
-    printf("Insira o segundo valor: \n");
-    scanf("%d", &valor2);
-}
-
-//funções dos operadores
-int soma ()
-{
-    resultado = valor1 + valor2;
-}
-
-int subtracao ()
-{
-    resultado = valor1 - valor2;
-}
-
-
-
-int main ()
-{
-    perguntarValor1();
-    perguntarValor2();
-
+    resultado = valor1 / valor2;
 }
